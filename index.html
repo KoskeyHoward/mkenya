@@ -4,119 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mississippi Investment Limited | CRB Checking Platform Kenya</title>
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- AOS Animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
-
-  <!-- Header / Hero -->
+  <nav class="bg-blue-900 text-white py-4">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <h1 class="font-bold text-xl">Mississippi Investment Ltd</h1>
+      <div>
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="crb-status.html" class="hover:underline">CRB Status</a>
+        <a href="credit-health.html" class="hover:underline">Credit Health</a>
+        <a href="business-support.html" class="hover:underline">Business Support</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </nav>
   <header class="bg-gradient-to-r from-blue-900 to-blue-600 text-white">
     <div class="max-w-6xl mx-auto px-6 py-16 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down">
-        MISSISSIPPI INVESTMENT LIMITED
-      </h1>
-      <p class="text-lg md:text-xl mb-6" data-aos="fade-up">
-        Trusted <span class="font-semibold">CRB Checking Platform</span> in Kenya
-      </p>
-      <a href="#services" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition" data-aos="zoom-in">
-        Check Your CRB Status
-      </a>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">MISSISSIPPI INVESTMENT LIMITED</h1>
+      <p class="text-lg md:text-xl mb-6">Trusted <span class="font-semibold">CRB Checking Platform</span> in Kenya</p>
+      <a href="check-status.html" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">Check Your CRB Status</a>
     </div>
   </header>
-
-  <!-- About -->
-  <section class="py-16" id="about">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-blue-800 mb-6" data-aos="fade-up">Who We Are</h2>
-      <p class="text-lg text-gray-600 leading-relaxed" data-aos="fade-up" data-aos-delay="100">
-        At <strong>Mississippi Investment Limited</strong>, we provide a secure and reliable 
-        <strong>Credit Reference Bureau (CRB) checking platform</strong> in Kenya.  
-        We empower individuals and businesses to access their credit reports, make informed financial decisions, 
-        and maintain good credit health.
-      </p>
-    </div>
-  </section>
-
-  <!-- Services -->
   <section class="bg-gray-100 py-16" id="services">
     <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-blue-800 mb-10" data-aos="fade-up">Our Services</h2>
+      <h2 class="text-3xl font-bold text-blue-800 mb-10">Our Services</h2>
       <div class="grid gap-8 md:grid-cols-3">
-        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up">
+        <a href="crb-status.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition block">
           <h3 class="text-xl font-semibold mb-3">CRB Status Check</h3>
           <p class="text-gray-600">Quick and accurate access to your CRB records in Kenya.</p>
-        </div>
-        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+        </a>
+        <a href="credit-health.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition block">
           <h3 class="text-xl font-semibold mb-3">Credit Health Reports</h3>
           <p class="text-gray-600">Understand your credit history and financial standing better.</p>
-        </div>
-        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+        </a>
+        <a href="business-support.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition block">
           <h3 class="text-xl font-semibold mb-3">Business CRB Support</h3>
           <p class="text-gray-600">Help SMEs and corporates verify customers and partners.</p>
-        </div>
+        </a>
       </div>
     </div>
   </section>
-
-  <!-- Contact + Form -->
-  <section class="py-16" id="contact">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-blue-800 mb-6" data-aos="fade-up">Get in Touch</h2>
-      <p class="text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="100">
-        Fill in the form below to request your CRB check or ask us any questions.
-      </p>
-
-      <!-- Contact Form -->
-      <form action="mailto:info@mississipi.co.ke" method="POST" enctype="text/plain" class="bg-white rounded-2xl shadow-lg p-8 space-y-4 text-left" data-aos="fade-up" data-aos-delay="200">
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Full Name</label>
-          <input type="text" name="name" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Email Address</label>
-          <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Phone Number</label>
-          <input type="tel" name="phone" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Message / Request</label>
-          <textarea name="message" rows="4" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-        </div>
-        <button type="submit" class="w-full bg-blue-700 text-white font-semibold py-3 rounded-lg shadow hover:bg-blue-800 transition">
-          Send Request
-        </button>
-      </form>
-
-      <!-- Contact Info -->
-      <div class="mt-10 text-lg space-y-2" data-aos="fade-up" data-aos-delay="300">
-        <p><strong>Email:</strong> info@mississipi.co.ke</p>
-        <p><strong>Phone:</strong> +254 7XX XXX XXX</p>
-        <p><strong>Location:</strong> Nairobi, Kenya</p>
-      </div>
-    </div>
+  <section class="py-16 text-center" id="contact">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6">Get in Touch</h2>
+    <a href="contact.html" class="mt-6 inline-block bg-blue-700 text-white px-6 py-3 rounded-full shadow hover:bg-blue-800 transition">Send Request</a>
   </section>
-
-  <!-- Footer -->
   <footer class="bg-blue-900 text-white py-6 text-center">
     <p>&copy; 2025 Mississippi Investment Limited. All Rights Reserved.</p>
   </footer>
-
-  <!-- AOS Script -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  </script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
 </body>
 </html>
